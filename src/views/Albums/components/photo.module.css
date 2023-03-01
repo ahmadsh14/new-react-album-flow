@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainPhoto {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.mainPhoto section {
+    width: 32%;
+}
+
+section img {
+    padding-bottom: 2rem;
+}
+
+section p {
+    min-height: 10vh;
+}
+
+@media (max-width:39.375rem) {
+    section p {
+        min-height: 20vh;
+    }
+    .mainPhoto section {
+        width: 48%;
+    }
+}
